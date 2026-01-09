@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Arlington 2026 Soccer Celebration Store</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer@3/dist/model-viewer.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="logo">🏆 Arlington 2026</div>
+  <div>
+    <select id="lang"></select>
+    <select id="currency"></select>
+    <div id="cart-icon">🛒<span id="cart-count">0</span></div>
+  </div>
+</header>
+
+<section id="hero">
+  <video autoplay muted loop playsinline src="crowd.mp4"></video>
+  <div class="overlay">
+    <h1>Millions of fans. One Arlington.</h1>
+    <p>Take the celebration home—no tickets required.</p>
+    <button class="cta" onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">Shop Fan Gear</button>
+  </div>
+</section>
+
+<main id="shop"></main>
+
+<template id="product-card">
+  <article class="card">
+    <model-viewer src="" ar ar-modes="webxr scene-viewer quick-look" camera-controls shadow-intensity="1" exposure="1"></model-viewer>
+    <div style="padding:1rem">
+      <div class="title"></div>
+      <div class="price"></div>
+      <button class="add">Add to Cart</button>
+    </div>
+  </article>
+</template>
+
+<footer>
+  &copy; 2025 Arlington Fan Store – built for the 2026 global celebration
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

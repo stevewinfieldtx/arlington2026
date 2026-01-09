@@ -1,0 +1,19 @@
+/* Arlington 2026 – 100 Lighthouse */
+:root{--cowboys-blue:#002244;--silver:#B0B7BC;--sixflags-yellow:#FFCD00;--text:#222;--bg:#f7f7f7}
+*{box-sizing:border-box;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial}
+body{background:var(--bg);color:var(--text)}
+header{background:var(--cowboys-blue);color:#fff;padding:.75rem 1rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+#hero{height:70vh;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;overflow:hidden}
+#hero video{position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;transform:translate(-50%,-50%);z-index:-1}
+#hero .overlay{background:rgba(0,0,0,.55);padding:2rem;border-radius:8px}
+h1{font-size:2.5rem;margin-bottom:.5rem}
+.cta{background:var(--sixflags-yellow);color:#000;padding:.6rem 1.2rem;border:none;border-radius:4px;font-weight:700;cursor:pointer}
+#shop{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));padding:2rem 1rem}
+.card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+model-viewer{width:100%;height:200px;background:#eee}
+.price{font-weight:700;color:var(--cowboys-blue);margin:.5rem 0}
+button.add{background:var(--cowboys-blue);color:#fff;border:none;padding:.5rem 1rem;border-radius:4px;cursor:pointer}
+#cart-icon{position:relative;cursor:pointer}
+#cart-count{position:absolute;top:-4px;right:-8px;background:var(--sixflags-yellow);color:#000;border-radius:50%;padding:2px 6px;font-size:.7rem;font-weight:700}
+select{margin-left:.5rem;padding:.25rem}
+footer{text-align:center;padding:2rem 1rem;font-size:.9rem;background:var(--cowboys-blue);color:#fff}

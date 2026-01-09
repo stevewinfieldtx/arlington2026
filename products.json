@@ -1,0 +1,23 @@
+[
+  {
+    "id": "scarf",
+    "title": { "en": "Arlington Soccer Scarf", "es": "Bufanda de Fútbol Arlington", "pt": "Cachecol de Futebol Arlington", "fr": "Écharpe de Football Arlington", "de": "Arlington-Fußballschal" },
+    "price": { "USD": 28, "EUR": 26, "GBP": 22, "MXN": 500, "CAD": 38, "BRL": 140 },
+    "model": "https://raw.githubusercontent.com/google/model-viewer/master/packages/shared-assets/models/soccer_ball.glb",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Soccer_ball_animated.svg/640px-Soccer_ball_animated.svg.png"
+  },
+  {
+    "id": "flagSet",
+    "title": { "en": "Hand-Flag Bundle (12 Countries)", "es": "Paquete de Banderas de Mano (12 países)", "pt": "Conjunto de Bandeiras de Mão (12 países)", "fr": "Lot de drapeaux à main (12 pays)", "de": "Handfahnen-Bundle (12 Länder)" },
+    "price": { "USD": 22, "EUR": 20, "GBP": 17, "MXN": 395, "CAD": 30, "BRL": 110 },
+    "model": "https://raw.githubusercontent.com/google/model-viewer/master/packages/shared-assets/models/flag.glb",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_icon.svg/640px-Flag_icon.svg.png"
+  },
+  {
+    "id": "mug",
+    "title": { "en": "Stadium Map Ceramic Mug", "es": "Taza de Cerámica con Mapa del Estadio", "pt": "Caneca de Cerâmica com Mapa do Estádio", "fr": "Mug céramique avec plan du stade", "de": "Stadion-Karte Keramikbecher" },
+    "price": { "USD": 16, "EUR": 15, "GBP": 13, "MXN": 290, "CAD": 22, "BRL": 82 },
+    "model": "https://raw.githubusercontent.com/google/model-viewer/master/packages/shared-assets/models/coffee_cup.glb",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Arlington_Texas_Downtown.jpg/640px-Arlington_Texas_Downtown.jpg"
+  }
+]
